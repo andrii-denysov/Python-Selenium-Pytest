@@ -16,13 +16,9 @@ py -m venv testenv
 ```
 .\testenv\Scripts\activate
 ```
-* install pipenv:
+* install project dependencies using pip: 
 ```
-pip install pipenv
-```
-* install project dependencies using pipenv: 
-```
-pipenv install
+pip install -r requirenments.txt
 ```
 ## Setup work environment using IDE PyCharm
 * download code as zip file from [Git](https://github.com/andrii-denysov/Python-Selenium-Pytest)
